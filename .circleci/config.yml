@@ -72,7 +72,7 @@ jobs:
             # Test if website exists
             if curl -s --head ${URL} 
             then
-              return 0
+              return 4
             else
               return 1
             fi
