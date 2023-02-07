@@ -71,3 +71,5 @@ workflows:
     jobs:
       - myjob1
       - create_infrastructure
+      - configure_infrastructure
+      - smoke_test
